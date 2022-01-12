@@ -1,0 +1,18 @@
+/*////////////////////////////////////////// galerie ///////////////////////////////////////////*/
+.galerigrid {
+  display: flex;
+  flex-flow: row wrap;
+}
+.imag {
+  margin: 2rem;
+  width: 250px;
+  height: 250px;
+}
+.imag:hover {
+  width: 280px;
+  height: 280px;
+}
+.imgtext {
+  overflow: hidden;
+  text-align: center;
+}

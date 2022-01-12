@@ -1,0 +1,157 @@
+/*/////////////////////////////////////////// general ////////////////////////////////////////*/
+.border {
+  border: 1rem solid var(--dark);
+}
+/*/ ////////////////////////////////////////// nav ////////////////////////////////////////*/
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  position: static;
+}
+nav,
+a {
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+}
+/*/ ////////////////////////////////////////// acceuil ////////////////////////////////////////*/
+.logo {
+  margin: 5rem 0;
+  width: 20rem;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 3.6rem;
+  padding: 0 0 1.5rem 0;
+}
+.acc-quote {
+  padding: 2rem;
+  font-size: 3rem;
+  line-height: 2.9rem;
+}
+.quote {
+  display: none;
+}
+/*/ ///////////////////////////////////////// presentation ///////////////////////////////////////////*/
+.presentation {
+  flex-direction: column-reverse;
+}
+.d-photo {
+  min-width: 20rem;
+  min-height: 20rem;
+}
+.photo {
+  max-width: 15rem;
+}
+.titre {
+  padding: 1rem 0 1rem 0;
+  font-size: 3rem;
+}
+.text {
+  text-align: start;
+  font-size: 1.6rem;
+  padding: 1rem 1rem 1rem 1rem;
+  letter-spacing: 0.5px;
+  line-height: 1.8rem;
+}
+/*/ ///////////////////////////////////////// tarif ///////////////////////////////////////////*/
+/*/ ///////////////////////////////////////// menu ///////////////////////////////////////////*/
+.menuType {
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin: 4rem auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.elem {
+  padding: 1rem 0 1rem 2rem;
+  align-items: start;
+  font-size: 2rem;
+}
+.h3men {
+  padding: 1rem 0 1rem 3rem;
+  font-size: 2.5rem;
+}
+h4 {
+  text-decoration: underline;
+}
+.ten {
+  border-radius: 0;
+}
+.en {
+  text-align: start;
+}
+.de {
+  text-align: start;
+}
+/*////////////////////////////////////////// galerie ///////////////////////////////////////////*/
+.galerigrid {
+  margin: 3rem auto;
+  display: flex;
+  flex-flow: row wrap;
+  height: 500px;
+  overflow: auto;
+}
+.imag {
+  margin: 1rem;
+  width: 150px;
+  height: 150px;
+}
+.imag:hover {
+  box-shadow: none;
+  width: 150px;
+  height: 150px;
+}
+.imgtext {
+  display: none;
+}
+/*////////////////////////////////////////// contact ///////////////////////////////////////////*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+.meContacter {
+  text-align: center;
+  font-size: 1.8rem;
+  display: block;
+}
+.h3contact {
+  font-size: 2.5rem;
+}
+.pcontact {
+  line-height: 2.2rem;
+}
+.iconc {
+  font-size: 1.8rem;
+  padding-right: 0.5rem;
+}
+.devis {
+  margin: 5rem 0;
+  border-top: 1px solid var(--light);
+  padding: 5rem 3rem 1rem 3rem;
+}
+label {
+  font-size: 1.8rem;
+}
+input,
+textarea {
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.3rem;
+  width: 29rem;
+  height: 3.4rem;
+}
+textarea {
+  overflow: hidden;
+  transition: 0.3s;
+}
+textarea:focus {
+  height: 10.2rem;
+}
+/*////////////////////////////////////////// footer ///////////////////////////////////////////*/
+footer {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
