@@ -214,21 +214,23 @@
             </div>
             <div class="devis">
               <h3 class="h3contact">Demander votre devis:</h3>
-              <label for="nom"><em>N</em>om</label><br>
-              <input type="text" name="name" id="nom"><br>
-              <label for="prenom"><em>P</em>renom</label><br>
-              <input type="text" name="name" id="prenom"><br>
-              <label for="e-mail"><em>E</em>-mail</label><br>
-              <input type="email" name="e-mail" id="e-mail"><br>
-              <label for="téléphone"><em>T</em>éléphone</label><br>
-              <input type="tel" name="téléphone" id="téléphone"><br>
-              <label for="date&heure"><em>D</em>ate et heure</label><br>
-              <input type="datetime-local" name="date&heure" id="date&heure"><br>
-              <label for="nombre"><em>N</em>ombre de personne</label><br>
-              <input type="number" name="nombre" id="nombre"><br>
-              <label for="demande"><em>Q</em>ue desirez vous ?</label><br>
-              <textarea name="demande" id="demande" cols="30" rows="5"></textarea><br>
-              <button>Envoyer</button>
+              <form name="contact" method="POST" data-netlify="true">
+                <label for="nom"><em>N</em>om</label><br>
+                <input type="text" name="name" id="nom"><br>
+                <label for="prenom"><em>P</em>renom</label><br>
+                <input type="text" name="name" id="prenom"><br>
+                <label for="e-mail"><em>E</em>-mail</label><br>
+                <input type="email" name="e-mail" id="e-mail"><br>
+                <label for="téléphone"><em>T</em>éléphone</label><br>
+                <input type="tel" name="téléphone" id="téléphone"><br>
+                <label for="date&heure"><em>D</em>ate et heure</label><br>
+                <input type="datetime-local" name="date&heure" id="date&heure"><br>
+                <label for="nombre"><em>N</em>ombre de personne</label><br>
+                <input type="number" name="nombre" id="nombre"><br>
+                <label for="demande"><em>Q</em>ue desirez vous ?</label><br>
+                <textarea name="demande" id="demande" cols="30" rows="5"></textarea><br>
+                <button type="submit">Envoyer</button>
+              </form>
             </div>
           </div>
         </div>
